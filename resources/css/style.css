@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('_registr.css');
+@import url('_button.css');
+@import url('_menu.css');
+@import url('_forms.css');
+@import url('_list-film.css');
+@import url('_header.css');
+@import url('_about-film.css');
+
+
+.wrapper{
+    overflow: hidden;
+    display: flex;
+    height: 100vh;
+}
+.wrapper header{
+    display: block;
+    width: 485px;
+    background: #383838;
+	overflow-x: hidden;
+}
+.contain{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background: #CCCCCC;
+}
+
+.logo_h1{
+    display: block;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 96px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #43B0ED;
+    margin-top: 5vh;
+	transform: scale(1.01);
+	transition: 1.3s;
+}
+
+.logo_h1:hover{
+    color: #ed4343;
+    -webkit-transform: scale(1.1, 1.1);   /* анимация в стиле NETFLIX */
+    -ms-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+}
+.error{
+	display: block;
+	font-size: 32px;
+	font-weight: 700;
+	font-family: 'Open Sans', sans-serif;
+	color: #113f64;
+	text-transform: uppercase;
+	margin-right: 10px;
+}
+.wrapper-error{
+	display: flex;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+.error-smile{
+	display: block;
+	width: 32px;
+	height: 32px;
+}
+
+
+

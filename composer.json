@@ -1,0 +1,17 @@
+{
+    "name": "a/a",
+    "autoload": {
+        "psr-4": {
+            "Todo\\lib\\": "lib/"
+        }
+    },
+    "authors": [
+        {
+            "name": "a"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "ext-pdo": "*"
+    }
+}
